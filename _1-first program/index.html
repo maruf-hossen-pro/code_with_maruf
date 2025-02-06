@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn form </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Now we will learn form in html</h1>
+    <div>
+        <form action="post"></form>
+        <label for="name">Enter your name </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    </div>
+    <br>
+    <div>
+        <label for="name">Enter your name </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+    </div>
+    <br>
+    <div>
+        <label for="email">Enter your email </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+    </div>
+    <br>
+    <div>
+        <label for="password">Enter your password </label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+    </div>
+    <br>
+    <div>
+        <div></div>
+        <label for="comment">Comment</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your comment"></textarea>
+    </div>
+    <br>
+    <div>
+        <form action="post">Gender</form>
+        <input type="radio" id="Gender" name="Gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <br>
+    <div>
+        <form action="post">Hobbies</form>
+        <input type="checkbox" id="hobbies" name="hobbies" value="reading" >
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="hobbies" name="hobbies" value="writing">
+        <label for="writing">Writing</label>
+        <input type="checkbox" id="hobbies" name="hobbies" value="playing">
+        <label for="playing">Playing</label>
+    </div>
+    <br>
+    <div>
+        <label for="fruits">Select your favorite fruits</label>
+        <select name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="grape">Grape</option>
+        </select>
+
+    </div>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </div>
+</body>
+
+</html>
